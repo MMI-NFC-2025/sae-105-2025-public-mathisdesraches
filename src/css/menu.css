@@ -19,7 +19,11 @@
   display: block;
 }
 
-
+.site-logo-index {
+  height:auto;         
+  width: auto;          
+  display: block;
+}
 
 .menu-btn,
 .menu-close {
