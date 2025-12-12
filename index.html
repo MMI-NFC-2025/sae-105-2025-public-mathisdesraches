@@ -176,14 +176,99 @@
       </div>
     </section>
 
-    <!-- Footer simple -->
-    <footer class="footer">
-      <p class="p muted">« Chorus Symphonia, fais résonner la Franche-Comté. »</p>
-      <div class="footer__links">
-        <a class="link" href="festival.html">Le Festival</a>
-        <a class="link" href="contact.html">Contact</a>
+    <footer class="site-footer" role="contentinfo">
+      <div class="footer__wrap">
+        <div class="footer__top">
+          <!-- Bloc marque -->
+          <div class="footer__brand">
+           
+              <img src="assets/img/vector.webp" alt="Logo Chorus Symphonia" class="site-logo">
+           
+    
+            <p class="footer__desc">
+              Concerts, chœurs, patrimoine. Une scène pour les voix, un écrin pour la nuit.
+            </p>
+    
+            <ul class="footer__social" aria-label="Réseaux sociaux">
+              <li><a href="#" aria-label="Instagram">Instagram</a></li>
+              <li><a href="#" aria-label="Facebook">Facebook</a></li>
+              <li><a href="#" aria-label="YouTube">YouTube</a></li>
+            </ul>
+          </div>
+    
+          <!-- Liens -->
+          <nav class="footer__nav" aria-label="Navigation du pied de page">
+            <div class="footer__col">
+              <h3 class="footer__title">Festival</h3>
+              <ul class="footer__list">
+                <li><a href="#">Programmation</a></li>
+                <li><a href="#">Billetterie</a></li>
+                <li><a href="#">Lieux</a></li>
+                <li><a href="#">Infos pratiques</a></li>
+              </ul>
+            </div>
+    
+            <div class="footer__col">
+              <h3 class="footer__title">À propos</h3>
+              <ul class="footer__list">
+                <li><a href="#">Le projet</a></li>
+                <li><a href="#">Partenaires</a></li>
+                <li><a href="#">Presse</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+    
+            <div class="footer__col">
+              <h3 class="footer__title">Légal</h3>
+              <ul class="footer__list">
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">Politique de confidentialité</a></li>
+                <li><a href="#">Cookies</a></li>
+                <li><a href="#">CGV</a></li>
+              </ul>
+            </div>
+          </nav>
+    
+          <!-- Newsletter -->
+          <div class="footer__newsletter">
+            <h3 class="footer__title">Newsletter</h3>
+            <p class="footer__descSmall">
+              Une note par mois : dates, annonces, ouvertures de billetterie.
+            </p>
+    
+            <form class="footer__form" action="#" method="post">
+              <label class="sr-only" for="newsletter-email">Adresse e-mail</label>
+              <input
+                id="newsletter-email"
+                name="email"
+                type="email"
+                placeholder="ton@email.com"
+                autocomplete="email"
+                required
+              />
+              <button type="submit">S’inscrire</button>
+            </form>
+    
+            <p class="footer__fineprint">
+              En t’inscrivant, tu acceptes de recevoir des emails du festival. Désinscription à tout moment.
+            </p>
+          </div>
+        </div>
+    
+        <div class="footer__bottom">
+          <p class="footer__copyright">
+            © <span id="year"></span> Chorus Symphonia. Tous droits réservés.
+          </p>
+    
+          <a class="footer__backtop" href="#top">Retour en haut ↑</a>
+        </div>
       </div>
+    
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
     </footer>
+    
   </main>
 
 </body>
