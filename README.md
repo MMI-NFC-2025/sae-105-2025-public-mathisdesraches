@@ -7,7 +7,7 @@
 - PRÉNOM : Mathis
 - GROUPE : C1
 - URL du site : chorus-symphonie.mathis-desraches.fr
-- URL FIGMA : 
+- URL FIGMA : https://www.figma.com/design/fZ0RZd8zGn3nbWHKHKTd7w/MAQUETTE-SA%C3%89-105?node-id=4-3&t=82LYbXcSw1MejuTQ-1
 
 ## Sujet
 
