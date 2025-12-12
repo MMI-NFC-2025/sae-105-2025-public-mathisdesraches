@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scènes – Chorus Symphonia</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/colors.css">
+  <link rel="stylesheet" href="src/css/typography.css">
+  <link rel="stylesheet" href="src/css/layout.css">
+  <link rel="stylesheet" href="src/css/components.css">
+  <link rel="stylesheet" href="src/css/menu.css">
+</head>
+
+<!-- JS -->
+<script src="src/js/billetterie.js" defer></script>
+<script src="src/js/carousel-artistes.js" defer></script>
+<script src="src/js/animations.js" defer></script>
+<script src="src/js/menu.js" defer></script>
+<body class="bg-app">
+    <header class="mobile-header">
+        <button class="menu-btn" id="menu-open" aria-label="Ouvrir le menu">
+          ☰
+        </button>
+      
+        <span class="site-title">Chorus Symphonia</span>
+      </header>
+      
+      <nav class="mobile-menu" id="mobile-menu">
+        <button class="menu-close" id="menu-close" aria-label="Fermer le menu">
+          ✕
+        </button>
+      
+        <ul class="menu-list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="festival.html">Le festival</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="artistes.html">Artistes</a></li>
+          <li><a href="scenes.html">Scènes</a></li>
+          <li><a href="infos.html">Infos pratiques</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      
+  <main class="container">
+
+    <!-- TITRE PAGE -->
+    <header class="section">
+      <h1 class="h1">Scènes</h1>
+      <p class="p muted">
+        Découvrez les différents lieux de concert du festival
+        Chorus Symphonia, au cœur de la Citadelle de Besançon.
+      </p>
+    </header>
+
+    <!-- SCÈNE VAUBAN -->
+    <section class="section">
+      <a href="scene.html" class="card card--link">
+        <h2 class="h2">Scène Vauban</h2>
+        <p class="p">
+          Scène principale du festival, la Scène Vauban accueille
+          les grands concerts symphoniques, lyriques et les soirées
+          de clôture.
+        </p>
+
+        <ul class="scene-meta">
+          <li class="p muted">Capacité : 1 200 personnes</li>
+          <li class="p muted">Concerts en soirée</li>
+          <li class="p muted">Accès PMR</li>
+        </ul>
+
+        <span class="card__hint">Voir la scène →</span>
+      </a>
+    </section>
+
+    <!-- SCÈNE DES REMPARTS -->
+    <section class="section">
+      <a href="scene.html" class="card card--link">
+        <h2 class="h2">Scène des Remparts</h2>
+        <p class="p">
+          Située à l’extérieur, la Scène des Remparts propose une
+          expérience en plein air, idéale pour les concerts lyriques
+          et les formats plus intimistes.
+        </p>
+
+        <ul class="scene-meta">
+          <li class="p muted">Capacité : 800 personnes</li>
+          <li class="p muted">Concerts en fin de journée</li>
+          <li class="p muted">Vue panoramique</li>
+        </ul>
+
+        <span class="card__hint">Voir la scène →</span>
+      </a>
+    </section>
+
+    <!-- SCÈNE PÉDAGOGIQUE -->
+    <section class="section">
+      <a href="scene.html" class="card card--link">
+        <h2 class="h2">Scène Pédagogique</h2>
+        <p class="p">
+          Dédiée aux jeunes talents et aux actions de médiation,
+          cette scène accueille des concerts pédagogiques et
+          des ateliers musicaux.
+        </p>
+
+        <ul class="scene-meta">
+          <li class="p muted">Capacité : 300 personnes</li>
+          <li class="p muted">Concerts en journée</li>
+          <li class="p muted">Ateliers & rencontres</li>
+        </ul>
+
+        <span class="card__hint">Voir la scène →</span>
+      </a>
+    </section>
+
+    <!-- INFO CONTEXTE -->
+    <section class="section">
+      <div class="cta">
+        <h2 class="h2">Des lieux au service de la musique</h2>
+        <p class="p">
+          Chaque scène est pensée pour offrir une acoustique et une
+          expérience adaptées aux différents formats de concert,
+          tout en respectant le patrimoine de la Citadelle.
+        </p>
+      </div>
+    </section>
+
+    <!-- RETOUR -->
+    <footer class="section footer">
+      <a href="index.html" class="link">← Retour à l’accueil</a>
+    </footer>
+
+  </main>
+ 
+</body>
+</html>

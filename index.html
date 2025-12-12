@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chorus Symphonia – Accueil</title>
+
+  <!-- Outfit (titres) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/colors.css">
+  <link rel="stylesheet" href="src/css/typography.css">
+  <link rel="stylesheet" href="src/css/layout.css">
+  <link rel="stylesheet" href="src/css/components.css">
+  <link rel="stylesheet" href="src/css/menu.css">
+</head>
+<!-- JS -->
+<script src="src/js/billetterie.js" defer></script>
+<script src="src/js/carousel-artistes.js" defer></script>
+<script src="src/js/animations.js" defer></script>
+<script src="src/js/menu.js" defer></script>
+
+<body class="bg-app">
+    <header class="mobile-header">
+        <button class="menu-btn" id="menu-open" aria-label="Ouvrir le menu">
+          ☰
+        </button>
+    
+        <img src="assets/img/vector2.webp" alt="Logo Chorus Symphonia" class="site-logo">
+      </header>
+      
+      <nav class="mobile-menu" id="mobile-menu">
+        <button class="menu-close" id="menu-close" aria-label="Fermer le menu">
+          ✕
+        </button>
+      
+        <ul class="menu-list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="festival.html">Le festival</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="artistes.html">Artistes</a></li>
+          <li><a href="scenes.html">Scènes</a></li>
+          <li><a href="infos.html">Infos pratiques</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      
+  <!-- HERO -->
+  <header class="hero">
+    <img class="hero__img" src="assets/img/image.webp" alt="Citadelle de Besançon de nuit" />
+
+    <!-- Contenu overlay -->
+    <div class="hero__overlay" aria-hidden="true"></div>
+
+    <div class="hero__content">
+        <img src="assets/img/vector.webp" alt="Logo Chorus Symphonia" class="site-logo">
+      <p class="hero__meta">
+        <span class="hero__dates">28 <span class="sep">|</span> 29 <span class="sep">|</span> 30 <span class="sep">|</span> 31 AOÛT</span><br>
+        <span class="hero__place">Citadelle de Besançon 2025</span>
+      </p>
+
+      <a class="hero__scroll" href="#contenu" aria-label="Descendre vers le contenu">Découvrir le Festival<br><span class="arrow">↓</span></a>
+    </div>
+  </header>
+
+  <main id="contenu" class="container">
+
+    <!-- CTA Billetterie (sans page) -->
+    <section class="section">
+      <div class="cta cta--ticket">
+        <div class="cta__text">
+          <h2 class="h2">Billetterie</h2>
+          <p class="p">
+            Réservez votre place pour l’édition 2025 de Chorus Symphonia.
+            Billetterie fictive (projet SAE).
+          </p>
+        </div>
+
+        <a href="#" class="btn btn--primary" id="btn-billetterie" aria-label="Accéder à la billetterie (fictive)">
+          Accéder à la billetterie
+        </a>
+      </div>
+    </section>
+
+    <!-- Aperçu sections principales (cards) -->
+    <section class="section">
+      <h2 class="h2">Explorer</h2>
+      <p class="p muted">Retrouvez le programme, les artistes, les scènes et toutes les infos pratiques.</p>
+
+      <div class="grid grid--2">
+        <a class="card card--link" href="programme.html">
+          <h3 class="h3">Programme</h3>
+          <p class="p">Concerts jour par jour, filtres, téléchargement PDF.</p>
+          <span class="card__hint">Voir →</span>
+        </a>
+
+        <a class="card card--link" href="artistes.html">
+          <h3 class="h3">Artistes</h3>
+          <p class="p">Liste triée par dates, fiches artistes, galerie.</p>
+          <span class="card__hint">Voir →</span>
+        </a>
+
+        <a class="card card--link" href="scenes.html">
+          <h3 class="h3">Scènes</h3>
+          <p class="p">Lieux du festival + artistes par scène.</p>
+          <span class="card__hint">Voir →</span>
+        </a>
+
+        <a class="card card--link" href="infos.html">
+          <h3 class="h3">Infos pratiques</h3>
+          <p class="p">Tarifs, transport, hébergements, FAQ.</p>
+          <span class="card__hint">Voir →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Carrousel Artistes -->
+    <section class="section">
+      <div class="section__row">
+        <h2 class="h2">Artistes à l’affiche</h2>
+        <a class="link" href="artistes.html">Tout voir</a>
+      </div>
+
+      <div class="carousel" aria-label="Carrousel des artistes">
+        <button class="carousel__btn" id="artists-prev" type="button" aria-label="Artiste précédent">‹</button>
+
+        <div class="carousel__viewport" id="artists-viewport">
+          <div class="carousel__track" id="artists-track">
+            <!-- Cartes injectées par JS -->
+          </div>
+        </div>
+
+        <button class="carousel__btn" id="artists-next" type="button" aria-label="Artiste suivant">›</button>
+      </div>
+
+      <p class="p muted">Glissez horizontalement ou utilisez les flèches.</p>
+    </section>
+
+    <!-- Dates clés (bloc “temps forts”) -->
+    <section class="section">
+      <h2 class="h2">Dates clés</h2>
+
+      <div class="timeline">
+        <div class="timeline__item">
+          <h3 class="h3">Jeudi 28 août</h3>
+          <p class="p">Ouverture du festival · Concert inaugural · Grande nuit lyrique.</p>
+        </div>
+        <div class="timeline__item">
+          <h3 class="h3">Vendredi 29 août</h3>
+          <p class="p">Récitals · Ateliers participatifs · Concert symphonique nocturne.</p>
+        </div>
+        <div class="timeline__item">
+          <h3 class="h3">Samedi 30 août</h3>
+          <p class="p">Journée phare · Opéra en plein air · Chorale géante.</p>
+        </div>
+        <div class="timeline__item">
+          <h3 class="h3">Dimanche 31 août</h3>
+          <p class="p">Concert famille · Clôture · Feu d’artifice musical.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partenaires -->
+    <section class="section">
+      <h2 class="h2">Partenaires</h2>
+      <div class="partners">
+        <span class="chip">Ville de Besançon</span>
+        <span class="chip">Région Bourgogne–Franche-Comté</span>
+        <span class="chip">Arte</span>
+        <span class="chip">Conservatoires & associations</span>
+      </div>
+    </section>
+
+    <!-- Footer simple -->
+    <footer class="footer">
+      <p class="p muted">« Chorus Symphonia, fais résonner la Franche-Comté. »</p>
+      <div class="footer__links">
+        <a class="link" href="festival.html">Le Festival</a>
+        <a class="link" href="contact.html">Contact</a>
+      </div>
+    </footer>
+  </main>
+
+</body>
+</html>

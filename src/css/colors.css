@@ -1,0 +1,16 @@
+:root {
+    --ink: #211A1D;
+    --violet: #6320EE;
+    --lavender: #8075FF;
+    --bg: #F8F0FB;
+  
+    --white: #FFFFFF;
+    --shadow: 0 10px 30px rgba(33, 26, 29, 0.12);
+    --radius: 16px;
+  }
+  
+  .bg-app {
+    background-color: var(--bg);
+    color: var(--ink);
+  }
+  

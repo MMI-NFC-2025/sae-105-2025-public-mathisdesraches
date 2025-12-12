@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Festival – Chorus Symphonia</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/colors.css">
+  <link rel="stylesheet" href="src/css/typography.css">
+  <link rel="stylesheet" href="src/css/layout.css">
+  <link rel="stylesheet" href="src/css/components.css">
+  <link rel="stylesheet" href="src/css/menu.css">
+</head>
+<!-- JS -->
+<script src="src/js/billetterie.js" defer></script>
+<script src="src/js/carousel-artistes.js" defer></script>
+<script src="src/js/animations.js" defer></script>
+<script src="src/js/menu.js" defer></script>
+<body class="bg-app">
+
+  <main class="container">
+    <header class="mobile-header">
+        <button class="menu-btn" id="menu-open" aria-label="Ouvrir le menu">
+          ☰
+        </button>
+      
+        <span class="site-title">Chorus Symphonia</span>
+      </header>
+      
+      <nav class="mobile-menu" id="mobile-menu">
+        <button class="menu-close" id="menu-close" aria-label="Fermer le menu">
+          ✕
+        </button>
+      
+        <ul class="menu-list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="festival.html">Le festival</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="artistes.html">Artistes</a></li>
+          <li><a href="scenes.html">Scènes</a></li>
+          <li><a href="infos.html">Infos pratiques</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      
+    <!-- TITRE PAGE -->
+    <header class="section">
+      <h1 class="h1">Le Festival</h1>
+      <p class="p muted">
+        Chorus Symphonia est un festival de musique classique et vocale
+        organisé au cœur de la Citadelle de Besançon.
+      </p>
+    </header>
+
+    <!-- HISTORIQUE -->
+    <section class="section">
+      <h2 class="h2">Historique</h2>
+
+      <p class="p">
+        Créé en 2018, le festival Chorus Symphonia est né de la volonté de
+        proposer une expérience musicale unique, mêlant musique classique,
+        chant choral et patrimoine architectural.
+      </p>
+
+      <p class="p">
+        Installé dans le cadre exceptionnel de la Citadelle de Besançon,
+        classée au patrimoine mondial de l’UNESCO, le festival a pour objectif
+        de rendre la musique accessible à tous, dans un esprit de partage,
+        de découverte et d’excellence artistique.
+      </p>
+
+      <p class="p">
+        Chaque édition met à l’honneur des artistes internationaux,
+        des ensembles vocaux et orchestraux, ainsi que de jeunes talents
+        issus des conservatoires.
+      </p>
+    </section>
+
+    <!-- ÉQUIPE -->
+    <section class="section">
+      <h2 class="h2">L’équipe</h2>
+
+      <div class="grid grid--2">
+        <div class="card">
+          <h3 class="h3">Direction artistique</h3>
+          <p class="p">
+            La programmation est assurée par une direction artistique
+            composée de musiciens et chefs de chœur reconnus.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="h3">Organisation</h3>
+          <p class="p">
+            Une équipe dédiée à la coordination du festival, à l’accueil
+            du public et à la gestion logistique des concerts.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="h3">Équipe technique</h3>
+          <p class="p">
+            Régisseurs, ingénieurs son et lumière assurent des conditions
+            de spectacle optimales dans un site patrimonial exigeant.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="h3">Bénévoles</h3>
+          <p class="p">
+            De nombreux bénévoles participent chaque année à l’accueil
+            des artistes et du public.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHARTE & VALEURS -->
+    <section class="section">
+      <h2 class="h2">Charte & valeurs</h2>
+
+      <div class="timeline">
+        <div class="timeline__item">
+          <h3 class="h3">Accessibilité</h3>
+          <p class="p">
+            Le festival s’engage à rendre la musique classique accessible
+            au plus grand nombre, par une programmation variée et des
+            tarifs adaptés.
+          </p>
+        </div>
+
+        <div class="timeline__item">
+          <h3 class="h3">Transmission</h3>
+          <p class="p">
+            Chorus Symphonia valorise la transmission des savoirs à travers
+            des ateliers, rencontres avec les artistes et concerts pédagogiques.
+          </p>
+        </div>
+
+        <div class="timeline__item">
+          <h3 class="h3">Écoresponsabilité</h3>
+          <p class="p">
+            Le festival adopte une démarche respectueuse de l’environnement :
+            gestion des déchets, circuits courts et limitation de l’impact
+            sonore et lumineux.
+          </p>
+        </div>
+
+        <div class="timeline__item">
+          <h3 class="h3">Patrimoine</h3>
+          <p class="p">
+            Le festival met en valeur le patrimoine architectural de Besançon
+            en proposant des concerts dans des lieux emblématiques.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIEN RETOUR -->
+    <footer class="section footer">
+      <a href="index.html" class="link">← Retour à l’accueil</a>
+    </footer>
+
+  </main>
+
+ 
+</body>
+</html>

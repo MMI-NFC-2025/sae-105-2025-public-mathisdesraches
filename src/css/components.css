@@ -1,0 +1,194 @@
+/* ===== HERO ===== */
+
+.hero {
+    position: relative;
+  }
+  
+  .hero__img {
+    width: 100%;
+    display: block;
+  }
+  
+  .hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(33, 26, 29, 0.2) 0%,
+      rgba(33, 26, 29, 0.7) 70%,
+      rgba(33, 26, 29, 0.95) 100%
+    );
+  }
+  
+  .hero__content {
+    position: absolute;
+    inset: 0;
+    padding: 18px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+  }
+  
+  .hero__title {
+    color: #fff;
+  }
+  
+  .hero__dates {
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  
+  .sep {
+    color: var(--lavender);
+  }
+  
+  .hero__scroll {
+    margin-top: 12px;
+    text-align: center;
+    color: rgba(248, 240, 251, 0.7);
+    text-decoration: none;
+  }
+  
+  /* ===== CTA ===== */
+  
+  .cta {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 14px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: none;
+  }
+  
+  .btn--primary {
+    background: linear-gradient(90deg, var(--violet), var(--lavender));
+    color: var(--bg);
+    font-family: "Outfit", system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+  /* ===== CARDS ===== */
+  
+  .card {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 12px;
+    min-height: 110px;
+    position: relative;
+  }
+  
+  .card--link {
+    text-decoration: none;
+  }
+  
+  .card__hint {
+    position: absolute;
+    right: 12px;
+    bottom: 10px;
+    color: var(--violet);
+    font-weight: 700;
+  }
+  
+  /* ===== CARROUSEL ===== */
+  
+  .carousel {
+    position: relative;
+  }
+  
+  .carousel__viewport {
+    overflow: hidden;
+    border-radius: var(--radius);
+  }
+  
+  .carousel__track {
+    display: flex;
+    gap: 12px;
+    padding: 8px 2px 12px;
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;
+    border: 1px solid rgba(33, 26, 29, 0.15);
+    background: rgba(248, 240, 251, 0.95);
+    font-size: 20px;
+  }
+  
+  #artists-prev {
+    left: -6px;
+  }
+  
+  #artists-next {
+    right: -6px;
+  }
+  
+  /* ===== ARTIST CARD ===== */
+  
+  .artist-card {
+    min-width: 220px;
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  
+  .artist-card__img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+  }
+  
+  .artist-card__body {
+    padding: 10px 12px;
+  }
+  
+  /* ===== TIMELINE ===== */
+  
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .timeline__item {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(33, 26, 29, 0.1);
+    border-radius: var(--radius);
+    padding: 12px;
+  }
+  
+  /* ===== PARTNERS / CHIPS ===== */
+  
+  .partners {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .chip {
+    background: rgba(99, 32, 238, 0.12);
+    border: 1px solid rgba(99, 32, 238, 0.25);
+    padding: 8px 10px;
+    border-radius: 999px;
+  }
+  

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scène Vauban – Chorus Symphonia</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/colors.css">
+  <link rel="stylesheet" href="src/css/typography.css">
+  <link rel="stylesheet" href="src/css/layout.css">
+  <link rel="stylesheet" href="src/css/components.css">
+  <link rel="stylesheet" href="src/css/menu.css">
+</head>
+
+<!-- JS -->
+<script src="src/js/billetterie.js" defer></script>
+<script src="src/js/carousel-artistes.js" defer></script>
+<script src="src/js/animations.js" defer></script>
+<script src="src/js/menu.js" defer></script>
+<body class="bg-app">
+    <header class="mobile-header">
+        <button class="menu-btn" id="menu-open" aria-label="Ouvrir le menu">
+          ☰
+        </button>
+      
+        <span class="site-title">Chorus Symphonia</span>
+      </header>
+      
+      <nav class="mobile-menu" id="mobile-menu">
+        <button class="menu-close" id="menu-close" aria-label="Fermer le menu">
+          ✕
+        </button>
+      
+        <ul class="menu-list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="festival.html">Le festival</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="artistes.html">Artistes</a></li>
+          <li><a href="scenes.html">Scènes</a></li>
+          <li><a href="infos.html">Infos pratiques</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      
+  <main class="container">
+
+    <!-- TITRE SCÈNE -->
+    <header class="section">
+      <h1 class="h1">Scène Vauban</h1>
+      <p class="p muted">
+        Scène principale du festival Chorus Symphonia, située au cœur
+        de la Citadelle de Besançon.
+      </p>
+    </header>
+
+    <!-- PHOTO SCÈNE -->
+    <section class="section">
+      <img
+        src="assets/img/scenes/scene-vauban.webp"
+        alt="Scène Vauban à la Citadelle de Besançon"
+        class="scene-hero-img"
+      >
+    </section>
+
+    <!-- DESCRIPTION -->
+    <section class="section">
+      <h2 class="h2">À propos de la scène</h2>
+
+      <p class="p">
+        La Scène Vauban est le lieu central du festival. Elle accueille
+        les concerts symphoniques, les grandes formations chorales ainsi
+        que les soirées lyriques majeures.
+      </p>
+
+      <p class="p">
+        Conçue pour offrir une acoustique optimale tout en respectant
+        le cadre patrimonial, la Scène Vauban permet une immersion
+        musicale unique au sein de la Citadelle.
+      </p>
+
+      <ul class="scene-meta">
+        <li class="p">Capacité : 1 200 personnes</li>
+        <li class="p">Concerts en soirée</li>
+        <li class="p">Accès PMR</li>
+      </ul>
+    </section>
+
+    <!-- ARTISTES PAR DATE -->
+    <section class="section">
+      <h2 class="h2">Artistes programmés sur cette scène</h2>
+
+      <!-- JEUDI -->
+      <div class="program-day">
+        <h3 class="h3">Jeudi 28 août</h3>
+
+        <ul class="scene-artists">
+          <li>
+            <a href="artiste.html" class="link">
+              Orchestre Symphonique de Franche-Comté
+            </a>
+            <span class="p muted">19h00 · Concert symphonique</span>
+          </li>
+
+          <li>
+            <a href="artiste.html" class="link">
+              Solistes internationaux
+            </a>
+            <span class="p muted">21h30 · Grande nuit lyrique</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- VENDREDI -->
+      <div class="program-day">
+        <h3 class="h3">Vendredi 29 août</h3>
+
+        <ul class="scene-artists">
+          <li>
+            <a href="artiste.html" class="link">
+              Élise Montval
+            </a>
+            <span class="p muted">17h00 · Récital piano</span>
+          </li>
+
+          <li>
+            <a href="artiste.html" class="link">
+              Ensemble symphonique invité
+            </a>
+            <span class="p muted">21h00 · Concert nocturne</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- SAMEDI -->
+      <div class="program-day">
+        <h3 class="h3">Samedi 30 août</h3>
+
+        <ul class="scene-artists">
+          <li>
+            <a href="artiste.html" class="link">
+              Jeunes talents du Conservatoire
+            </a>
+            <span class="p muted">15h00 · Concert pédagogique</span>
+          </li>
+
+          <li>
+            <a href="artiste.html" class="link">
+              Clara Weiss
+            </a>
+            <span class="p muted">18h00 · Récital violon</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- DIMANCHE -->
+      <div class="program-day">
+        <h3 class="h3">Dimanche 31 août</h3>
+
+        <ul class="scene-artists">
+          <li>
+            <a href="artiste.html" class="link">
+              Ensemble pédagogique
+            </a>
+            <span class="p muted">16h00 · Concert famille</span>
+          </li>
+
+          <li>
+            <a href="artiste.html" class="link">
+              Tous les artistes du festival
+            </a>
+            <span class="p muted">18h30 · Concert de clôture</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- LIENS UTILES -->
+    <section class="section">
+      <h2 class="h2">Explorer</h2>
+
+      <div class="grid grid--2">
+        <a href="programme.html" class="card card--link">
+          <h3 class="h3">Programme</h3>
+          <p class="p">Voir l’ensemble des concerts par jour.</p>
+        </a>
+
+        <a href="scenes.html" class="card card--link">
+          <h3 class="h3">Toutes les scènes</h3>
+          <p class="p">Retour à la liste des scènes.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- RETOUR -->
+    <footer class="section footer">
+      <a href="scenes.html" class="link">← Retour aux scènes</a>
+    </footer>
+
+  </main>
+
+
+</body>
+</html>

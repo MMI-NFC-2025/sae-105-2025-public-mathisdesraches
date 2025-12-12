@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 18px 16px 36px;
+  }
+  
+  .section {
+    margin: 24px 0;
+  }
+  
+  .section__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+  
+  /* Grilles */
+  
+  .grid {
+    display: grid;
+    gap: 12px;
+  }
+  
+  .grid--2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  /* Footer */
+  
+  .footer {
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(33, 26, 29, 0.1);
+  }
+  
+  .footer__links {
+    display: flex;
+    gap: 16px;
+    margin-top: 8px;
+  }
+  

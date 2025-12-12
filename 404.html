@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 – Page introuvable | Chorus Symphonia</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/colors.css">
+  <link rel="stylesheet" href="src/css/typography.css">
+  <link rel="stylesheet" href="src/css/layout.css">
+  <link rel="stylesheet" href="src/css/components.css">
+  <link rel="stylesheet" href="src/css/menu.css">
+</head>
+
+<!-- JS -->
+<script src="src/js/billetterie.js" defer></script>
+<script src="src/js/carousel-artistes.js" defer></script>
+<script src="src/js/animations.js" defer></script>
+<script src="src/js/menu.js" defer></script>
+
+<body class="bg-app">
+    <header class="mobile-header">
+        <button class="menu-btn" id="menu-open" aria-label="Ouvrir le menu">
+          ☰
+        </button>
+      
+        <span class="site-title">Chorus Symphonia</span>
+      </header>
+      
+      <nav class="mobile-menu" id="mobile-menu">
+        <button class="menu-close" id="menu-close" aria-label="Fermer le menu">
+          ✕
+        </button>
+      
+        <ul class="menu-list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="festival.html">Le festival</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="artistes.html">Artistes</a></li>
+          <li><a href="scenes.html">Scènes</a></li>
+          <li><a href="infos.html">Infos pratiques</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      
+  <main class="container">
+
+    <!-- CONTENU 404 -->
+    <section class="section error-page">
+
+      <h1 class="h1 error-code">404</h1>
+
+      <h2 class="h2">Page introuvable</h2>
+
+      <p class="p muted">
+        La page que vous recherchez n’existe pas ou a été déplacée.
+      </p>
+
+      <p class="p">
+        Peut-être qu’un concert a changé de scène…
+        ou que cette page n’a jamais été programmée.
+      </p>
+
+      <!-- ACTIONS -->
+      <div class="grid grid--2">
+        <a href="index.html" class="btn btn--primary">
+          Retour à l’accueil
+        </a>
+
+        <a href="programme.html" class="card card--link">
+          <h3 class="h3">Voir le programme</h3>
+          <p class="p">Retrouvez tous les concerts du festival.</p>
+        </a>
+      </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="section footer">
+      <p class="p muted">
+        Chorus Symphonia · Festival de musique classique · Besançon
+      </p>
+    </footer>
+
+  </main>
+
+  
+</body>
+</html>

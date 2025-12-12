@@ -1,0 +1,20 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(33, 26, 29, 0.2);
+    font-size: 12px;
+  }
+  

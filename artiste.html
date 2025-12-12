@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clara Weiss – Chorus Symphonia</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/colors.css">
+  <link rel="stylesheet" href="src/css/typography.css">
+  <link rel="stylesheet" href="src/css/layout.css">
+  <link rel="stylesheet" href="src/css/components.css">
+  <link rel="stylesheet" href="src/css/menu.css">
+</head>
+
+<!-- JS -->
+<script src="src/js/billetterie.js" defer></script>
+<script src="src/js/carousel-artistes.js" defer></script>
+<script src="src/js/animations.js" defer></script>
+<script src="src/js/menu.js" defer></script>
+
+<body class="bg-app">
+    <header class="mobile-header">
+        <button class="menu-btn" id="menu-open" aria-label="Ouvrir le menu">
+          ☰
+        </button>
+      
+        <span class="site-title">Chorus Symphonia</span>
+      </header>
+      
+      <nav class="mobile-menu" id="mobile-menu">
+        <button class="menu-close" id="menu-close" aria-label="Fermer le menu">
+          ✕
+        </button>
+      
+        <ul class="menu-list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="festival.html">Le festival</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="artistes.html">Artistes</a></li>
+          <li><a href="scenes.html">Scènes</a></li>
+          <li><a href="infos.html">Infos pratiques</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      
+  <main class="container">
+
+    <!-- HEADER ARTISTE -->
+    <header class="section">
+      <h1 class="h1">Clara Weiss</h1>
+      <p class="p muted">Violoniste</p>
+    </header>
+
+    <!-- PHOTO PRINCIPALE -->
+    <section class="section">
+      <!-- Image principale de l'artiste -->
+      <img
+        src="assets/img/artistes/clara-weiss.webp"
+        alt="Portrait de Clara Weiss"
+        class="artist-hero-img"
+      >
+    </section>
+
+    <!-- INFOS CLÉS -->
+    <section class="section">
+      <h2 class="h2">Informations</h2>
+
+      <div class="timeline">
+        <div class="timeline__item">
+          <h3 class="h3">Dates de représentation</h3>
+          <p class="p">
+            Samedi 30 août 2025 · 18h00
+          </p>
+        </div>
+
+        <div class="timeline__item">
+          <h3 class="h3">Scène</h3>
+          <p class="p">
+            Scène Vauban · Citadelle de Besançon
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESCRIPTION -->
+    <section class="section">
+      <h2 class="h2">Biographie</h2>
+
+      <p class="p">
+        Clara Weiss est une violoniste reconnue sur la scène européenne pour
+        son interprétation sensible et engagée du répertoire classique et
+        romantique. Formée dans les plus grands conservatoires, elle se
+        distingue par une approche à la fois rigoureuse et expressive.
+      </p>
+
+      <p class="p">
+        Invitée régulière de festivals internationaux, Clara Weiss collabore
+        avec de nombreux orchestres et ensembles de musique de chambre.
+        Son travail met en valeur la transmission et le dialogue entre
+        patrimoine musical et création contemporaine.
+      </p>
+    </section>
+
+    <!-- GALERIE -->
+    <section class="section">
+      <h2 class="h2">Galerie</h2>
+
+      <div class="grid grid--2">
+        <img
+          src="assets/img/artistes/clara-weiss-1.webp"
+          alt="Clara Weiss en concert"
+          class="artist-gallery-img"
+        >
+        <img
+          src="assets/img/artistes/clara-weiss-2.webp"
+          alt="Répétition de Clara Weiss"
+          class="artist-gallery-img"
+        >
+        <img
+          src="assets/img/artistes/clara-weiss-3.webp"
+          alt="Clara Weiss sur scène"
+          class="artist-gallery-img"
+        >
+        <img
+          src="assets/img/artistes/clara-weiss-4.webp"
+          alt="Clara Weiss en récital"
+          class="artist-gallery-img"
+        >
+      </div>
+
+      <p class="p muted">
+        Galerie indicative pour la maquette (images fictives).
+      </p>
+    </section>
+
+    <!-- LIENS UTILES -->
+    <section class="section">
+      <h2 class="h2">Voir aussi</h2>
+
+      <div class="grid grid--2">
+        <a href="programme.html" class="card card--link">
+          <h3 class="h3">Programme</h3>
+          <p class="p">Voir les concerts auxquels participe l’artiste.</p>
+        </a>
+
+        <a href="artistes.html" class="card card--link">
+          <h3 class="h3">Tous les artistes</h3>
+          <p class="p">Retour à la liste complète des artistes.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- RETOUR -->
+    <footer class="section footer">
+      <a href="artistes.html" class="link">← Retour aux artistes</a>
+    </footer>
+
+  </main>
+
+
+</body>
+</html>
