@@ -5,35 +5,34 @@ document.addEventListener("DOMContentLoaded", () => {
     const viewport = document.getElementById("artists-viewport");
     if (!track || !prev || !next || !viewport) return;
   
-    // Données fictives 
     const artists = [
       {
         name: "Élise Montval",
         role: "Piano",
         date: "Ven. 29 août · 17h00",
         scene: "Scène Vauban",
-        img: "assets/img/placeholder-artist.webp"
+        img: "assets/img/elise.png"
       },
       {
         name: "Clara Weiss",
         role: "Violon",
         date: "Sam. 30 août · 18h00",
         scene: "Scène Vauban",
-        img: "assets/img/placeholder-artist.webp"
+        img: "assets/img/clara.png"
       },
       {
         name: "Luca Ferreti",
         role: "Ténor",
         date: "Jeu. 28 août · 21h30",
         scene: "Scène Vauban",
-        img: "assets/img/placeholder-artist.webp"
+        img: "assets/img/luca.png"
       },
       {
         name: "Sofia Alvarez",
         role: "Soprano",
         date: "Jeu. 28 août · 21h30",
         scene: "Scène Vauban",
-        img: "assets/img/placeholder-artist.webp"
+        img: "assets/img/sofia.png"
       }
     ];
   

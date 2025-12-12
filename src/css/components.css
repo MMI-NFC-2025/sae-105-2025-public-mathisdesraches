@@ -153,7 +153,7 @@
   /* ===== ARTIST CARD ===== */
   
   .artist-card {
-    min-width: 220px;
+    min-width: 20px;
     background: var(--white);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
