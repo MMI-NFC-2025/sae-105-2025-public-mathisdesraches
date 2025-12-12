@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : DESRACHES
+- PRÉNOM : Mathis
+- GROUPE : C1
+- URL du site : chorus-symphonie.mathis-desraches.fr
+- URL FIGMA : 
 
 ## Sujet
 
